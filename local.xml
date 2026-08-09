@@ -17,4 +17,5 @@
  <project path="device/mediatek/sepolicy_vndr" name="mediatek_sepolicy_vndr" remote="hound-lab" revision="sixteen"/>
  <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="hound-lab" revision="sixteen" />
  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="hound-lab" revision="sixteen" />
+ <project path="vendor/lineage-priv/keys" name="signing_keys" remote="hound-lab" revision="sixteen" />
 </manifest>
