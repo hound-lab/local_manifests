@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="hound-lab"
+	    fetch="https://github.com/hound-lab"
+	    clone-depth="1" />
+
+ <!-- X6882 -->
+ <project path="device/infinix/X6882" name="device_infinix_X6882" remote="hound-lab" revision="lineage-23.2" />
+ <project path="device/infinix/X6882-kernel" name="device_infinix_X6882-kernel" remote="hound-lab" revision="lineage-23.2" />
+ <project path="vendor/infinix/X6882" name="vendor_infinix_X6882" remote="hound-lab" revision="lineage-23.2" />
+
+ <!-- Remove Projects -->
+ <remove-project path="packages/apps/Aperture" />
+
+ <!-- Mediatek Thing's -->
+ <project path="hardware/mediatek" name="hardware_mediatek" remote="hound-lab" revision="sixteen" />
+ <project path="device/mediatek/sepolicy_vndr" name="mediatek_sepolicy_vndr" remote="hound-lab" revision="sixteen"/>
+ <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="hound-lab" revision="sixteen" />
+ <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="hound-lab" revision="sixteen" />
+</manifest>
